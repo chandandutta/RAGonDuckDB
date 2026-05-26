@@ -1,4 +1,4 @@
-# DuckDB on RAG
+# RAG on DuckDB
 
 A **Retrieval-Augmented Generation (RAG)** pipeline built with [DuckDB](https://duckdb.org/) as the vector store and [OpenAI](https://platform.openai.com/) for embeddings and answer generation.
 
