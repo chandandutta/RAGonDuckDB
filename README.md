@@ -73,7 +73,7 @@ Run the scripts **in order** (Steps 1 → 4) to build the index, then use Steps 
 - Saves the result as `data/sample_data.parquet`.
 
 ```bash
-python scr_setup_and_create_data.py
+python 1.scr_setup_and_create_data.py
 ```
 
 ### Step 2: `scr_load_parquet_to_duckdb.py`
@@ -85,7 +85,7 @@ python scr_setup_and_create_data.py
 - Creates a `documents` table with all rows.
 
 ```bash
-python scr_load_parquet_to_duckdb.py
+python 2.scr_load_parquet_to_duckdb.py
 ```
 
 ### Step 3: `scr_create_text_chunks.py`
@@ -97,7 +97,7 @@ python scr_load_parquet_to_duckdb.py
 - Stores all chunks in a `chunks` table with metadata linking back to the source document.
 
 ```bash
-python scr_create_text_chunks.py
+python 3.scr_create_text_chunks.py
 ```
 
 ### Step 4: `scr_generate_embeddings.py`
@@ -109,7 +109,7 @@ python scr_create_text_chunks.py
 - Stores the resulting embedding vectors in an `embeddings` table.
 
 ```bash
-python scr_generate_embeddings.py
+python 4.scr_generate_embeddings.py
 ```
 
 ### Step 5: `scr_retrieve_similar_chunks.py`
@@ -122,7 +122,7 @@ python scr_generate_embeddings.py
 - Includes demo queries for testing.
 
 ```bash
-python scr_retrieve_similar_chunks.py
+python 5.scr_retrieve_similar_chunks.py
 ```
 
 ### Step 6: `scr_generate_answer.py`
@@ -135,7 +135,7 @@ python scr_retrieve_similar_chunks.py
 - Includes multiple demo queries.
 
 ```bash
-python scr_generate_answer.py
+python 6.scr_generate_answer.py
 ```
 
 > **Note:** `scr_generate_answer.orig.py` is the original version using `text-embedding-3-small` (1536 dims). The current `scr_generate_answer.py` uses `text-embedding-3-large` (3072 dims).
