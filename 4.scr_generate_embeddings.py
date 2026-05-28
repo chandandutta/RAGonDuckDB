@@ -233,7 +233,7 @@ def main():
     con.close()
 
     print("\n" + "=" * 60)
-    print("Embeddings stored! Next: python scr_retrieve_similar_chunks.py")
+    print("Embeddings stored! Next: python 5.scr_retrieve_similar_chunks.py")
     print("=" * 60)
 
 

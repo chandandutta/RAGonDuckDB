@@ -208,7 +208,7 @@ def main():
     con.close()
 
     print("\n" + "=" * 60)
-    print("Retrieval works! Next: python scr_generate_answer.py")
+    print("Retrieval works! Next: python 6.scr_generate_answer.py")
     print("=" * 60)
 
 

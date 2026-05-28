@@ -205,7 +205,7 @@ def main():
     print(f"  Verification: read back {len(df_check)} rows from Parquet ✓")
 
     print("\n" + "=" * 60)
-    print("Setup complete! Next: python scr_load_parquet_to_duckdb.py")
+    print("Setup complete! Next: python 2.scr_load_parquet_to_duckdb.py")
     print("=" * 60)
 
 

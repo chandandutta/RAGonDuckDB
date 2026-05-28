@@ -128,7 +128,7 @@ def main():
     con.close()
 
     print("\n" + "=" * 60)
-    print("Parquet loaded! Next: python scr_create_text_chunks.py")
+    print("Parquet loaded! Next: python 3.scr_create_text_chunks.py")
     print("=" * 60)
 
 

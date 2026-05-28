@@ -200,7 +200,7 @@ def main():
     con.close()
 
     print("\n" + "=" * 60)
-    print("Chunking done! Next: python scr_generate_embeddings.py")
+    print("Chunking done! Next: python 4.scr_generate_embeddings.py")
     print("=" * 60)
 
 
