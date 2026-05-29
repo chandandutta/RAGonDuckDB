@@ -183,10 +183,10 @@ export OPENAI_API_KEY="sk-..."
 pip install duckdb openai numpy pandas tqdm pyarrow
 
 # 3. Run the full pipeline (Steps 1-4)
-python scr_setup_and_create_data.py
-python scr_load_parquet_to_duckdb.py
-python scr_create_text_chunks.py
-python scr_generate_embeddings.py
+python 1.scr_setup_and_create_data.py
+python 2.scr_load_parquet_to_duckdb.py
+python 3.scr_create_text_chunks.py
+python 4.scr_generate_embeddings.py
 
 # 4. Ask a question
 python scr_rag_query_pipeline.py query "How did Helen Keller learn to communicate?"
